@@ -52,3 +52,37 @@ As principais dependências do projeto são:
         <version>2.8.0</version>
     </dependency>
 </dependencies>
+```
+## Executando os Testes
+
+Para executar os testes, utilize o seguinte comando do Maven:
+
+```bash
+mvn clean test
+```
+
+### Relatórios de Execução
+
+Após a execução dos testes, os relatórios de execução serão gerados na pasta target. Abaixo estão os principais arquivos e diretórios de relatório que você encontrará:
+
+- target/cucumber-reports: Contém relatórios HTML gerados pelo Cucumber, que fornecem uma visão detalhada dos resultados dos testes.
+- target/surefire-reports: Contém relatórios padrão do Surefire plugin, incluindo resultados de execução de testes unitários e de integração.
+
+Você pode visualizar o relatório HTML abrindo o arquivo `target/cucumber-reports/cucumber-html-report.html` em um navegador. Este relatório fornece uma visão detalhada dos cenários de teste executados, incluindo passos bem-sucedidos e falhas.
+
+### Exemplo de Estrutura de Relatórios
+
+Após executar os testes, a estrutura da pasta target será semelhante a esta:
+
+```css
+target/
+├── cucumber-reports/
+│   ├── cucumber-html-report.html
+│   └── ...
+├── sscreenshots/
+│   ├── TEST-*.jpg
+│   └── ...
+├── ...
+```
+
+
