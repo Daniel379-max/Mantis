@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="br.mg.dromagnoli.runners.RunnerTest" time="0.283" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\danda\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\danda\eclipse-workspace\CursoCucumber\target\test-classes;C:\Users\danda\eclipse-workspace\CursoCucumber\target\classes;C:\Users\danda\.m2\repository\io\cucumber\cucumber-java\4.8.0\cucumber-java-4.8.0.jar;C:\Users\danda\.m2\repository\io\cucumber\cucumber-core\4.8.0\cucumber-core-4.8.0.jar;C:\Users\danda\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\danda\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\danda\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\danda\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\danda\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\danda\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\danda\.m2\repository\io\cucumber\cucumber-junit\4.8.0\cucumber-junit-4.8.0.jar;C:\Users\danda\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\danda\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\danda\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\danda\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\danda\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\danda\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\danda\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\danda\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\danda\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\danda\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\danda\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\danda\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\danda\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\danda\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\danda\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\danda\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\danda\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\danda\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\danda\AppData\Local\Temp\surefire8607013050230521960\surefirebooter-20240802131548796_3.jar C:\Users\danda\AppData\Local\Temp\surefire8607013050230521960 2024-08-02T13-15-48_574-jvmRun1 surefire-20240802131548796_1tmp surefire_0-20240802131548796_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\danda\eclipse-workspace\CursoCucumber\target\test-classes;C:\Users\danda\eclipse-workspace\CursoCucumber\target\classes;C:\Users\danda\.m2\repository\io\cucumber\cucumber-java\4.8.0\cucumber-java-4.8.0.jar;C:\Users\danda\.m2\repository\io\cucumber\cucumber-core\4.8.0\cucumber-core-4.8.0.jar;C:\Users\danda\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\danda\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\danda\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\danda\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\danda\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\danda\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\danda\.m2\repository\io\cucumber\cucumber-junit\4.8.0\cucumber-junit-4.8.0.jar;C:\Users\danda\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\danda\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\danda\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\danda\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\danda\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\danda\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\danda\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\danda\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\danda\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\danda\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\danda\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\danda\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\danda\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\danda\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\danda\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\danda\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\danda\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\danda\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\danda\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\danda"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\danda\eclipse-workspace\CursoCucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\danda\AppData\Local\Temp\surefire8607013050230521960\surefirebooter-20240802131548796_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="user.name" value="daniel"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\danda\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\danda\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="C:\Users\danda\eclipse-workspace\CursoCucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\GitExtensions\;C:\Users\danda\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\src\flutter\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_333\bin;C:\Program Files\doctl\;C:\Program Files\doctl\;C:\Program Files\doctl\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Users\danda\Downloads\chromedriver-mac-arm64\chromedriver-mac-arm64;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\danda\AppData\Local\Programs\Microsoft VS Code\bin;C:\WINDOWS\system32\config\systemprofile\.dotnet\tools;C:\Users\danda\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\src\flutter\bin;C:\Users\danda\AppData\Local\Programs\Lens\resources\cli\bin;C:\Users\danda\AppData\Roaming\npm;C:\Users\danda\Downloads\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="Deve alugar um filme com sucesso" classname="Alugar Filme" time="0.028">
+    <system-out><![CDATA[@unitários
+Feature: Alugar Filme
+	Como um usuário
+	Eu quero cadastrar aluguéis de filmes
+	Para controlar preços e datas de entrega
+
+  @unitários
+  Scenario: Deve alugar um filme com sucesso &amp#27;[90m# src/test/resources/features/alugar_filme.feature:7&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mum filme&amp#27;[0m                           &amp#27;[90m# AlugarFilmeSteps.umFilme(DataTable)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32malugar&amp#27;[0m                              &amp#27;[90m# AlugarFilmeSteps.alugar()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mo preço do aluguel será R$&amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m         &amp#27;[90m# AlugarFilmeSteps.oPreçoDoAluguelSeráR$(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma data de entrega será em &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m dia&amp#27;[0m      &amp#27;[90m# AlugarFilmeSteps.aDataDeEntregaSeraEmDias(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mo estoque do filme será &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m unidade&amp#27;[0m    &amp#27;[90m# AlugarFilmeSteps.oEstoqueDoFilmeSeráUnidade(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Não deve alugar filme sem estoque" classname="Alugar Filme" time="0.007">
+    <system-out><![CDATA[
+  @unitários
+  Scenario: Não deve alugar filme sem estoque   &amp#27;[90m# src/test/resources/features/alugar_filme.feature:18&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mum filme com estoque de &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m unidades&amp#27;[0m    &amp#27;[90m# AlugarFilmeSteps.umFilmeComEstoqueDeUnidades(int)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32malugar&amp#27;[0m                                 &amp#27;[90m# AlugarFilmeSteps.alugar()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mnão será possível por falta de estoque&amp#27;[0m &amp#27;[90m# AlugarFilmeSteps.não_será_possível_por_falta_de_estoque()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mo estoque do filme será &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m unidades&amp#27;[0m      &amp#27;[90m# AlugarFilmeSteps.oEstoqueDoFilmeSeráUnidade(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Deve dar condiçoes conforme tipo de aluguel" classname="Alugar Filme" time="0.018">
+    <system-out><![CDATA[
+  Scenario Outline: Deve dar condiçoes conforme tipo de aluguel &amp#27;[90m# src/test/resources/features/alugar_filme.feature:24&amp#27;[0m
+    &amp#27;[36mGiven um filme com estoque de 2 unidades&amp#27;[0m
+    &amp#27;[36mAnd que o preço do aluguel seja R$<preco>&amp#27;[0m
+    &amp#27;[36mAnd que o tipo do aluguel seja <tipo>&amp#27;[0m
+    &amp#27;[36mWhen alugar&amp#27;[0m
+    &amp#27;[36mThen o preço do aluguel será R$<valor>&amp#27;[0m
+    &amp#27;[36mAnd a data de entrega será em <qtdDias> dias&amp#27;[0m
+    &amp#27;[36mAnd a pontuação será de <pontuacao> pontos&amp#27;[0m
+
+    Examples: 
+
+  @unitários
+  Scenario Outline: Deve dar condiçoes conforme tipo de aluguel &amp#27;[90m# src/test/resources/features/alugar_filme.feature:35&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mum filme com estoque de &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m unidades&amp#27;[0m                    &amp#27;[90m# AlugarFilmeSteps.umFilmeComEstoqueDeUnidades(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque o preço do aluguel seja R$&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m                         &amp#27;[90m# AlugarFilmeSteps.queOPreçoDoAluguelSejaR$(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque o tipo do aluguel seja &amp#27;[0m&amp#27;[32m&amp#27;[1mextendido&amp#27;[0m                    &amp#27;[90m# AlugarFilmeSteps.queOTipoDoAluguelSeja(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32malugar&amp#27;[0m                                                 &amp#27;[90m# AlugarFilmeSteps.alugar()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mo preço do aluguel será R$&amp#27;[0m&amp#27;[32m&amp#27;[1m8&amp#27;[0m                            &amp#27;[90m# AlugarFilmeSteps.oPreçoDoAluguelSeráR$(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma data de entrega será em &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m dias&amp#27;[0m                        &amp#27;[90m# AlugarFilmeSteps.aDataDeEntregaSeraEmDias(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma pontuação será de &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m pontos&amp#27;[0m                            &amp#27;[90m# AlugarFilmeSteps.aPontuacaoSeraDePontos(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Deve dar condiçoes conforme tipo de aluguel" classname="Alugar Filme" time="0.008">
+    <system-out><![CDATA[
+  @unitários
+  Scenario Outline: Deve dar condiçoes conforme tipo de aluguel &amp#27;[90m# src/test/resources/features/alugar_filme.feature:36&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mum filme com estoque de &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m unidades&amp#27;[0m                    &amp#27;[90m# AlugarFilmeSteps.umFilmeComEstoqueDeUnidades(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque o preço do aluguel seja R$&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m                         &amp#27;[90m# AlugarFilmeSteps.queOPreçoDoAluguelSejaR$(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque o tipo do aluguel seja &amp#27;[0m&amp#27;[32m&amp#27;[1mcomum&amp#27;[0m                        &amp#27;[90m# AlugarFilmeSteps.queOTipoDoAluguelSeja(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32malugar&amp#27;[0m                                                 &amp#27;[90m# AlugarFilmeSteps.alugar()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mo preço do aluguel será R$&amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m                            &amp#27;[90m# AlugarFilmeSteps.oPreçoDoAluguelSeráR$(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma data de entrega será em &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m dias&amp#27;[0m                        &amp#27;[90m# AlugarFilmeSteps.aDataDeEntregaSeraEmDias(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma pontuação será de &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m pontos&amp#27;[0m                            &amp#27;[90m# AlugarFilmeSteps.aPontuacaoSeraDePontos(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Deve dar condiçoes conforme tipo de aluguel" classname="Alugar Filme" time="0.01">
+    <system-out><![CDATA[
+  @unitários
+  Scenario Outline: Deve dar condiçoes conforme tipo de aluguel &amp#27;[90m# src/test/resources/features/alugar_filme.feature:37&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mum filme com estoque de &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m unidades&amp#27;[0m                    &amp#27;[90m# AlugarFilmeSteps.umFilmeComEstoqueDeUnidades(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque o preço do aluguel seja R$&amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                        &amp#27;[90m# AlugarFilmeSteps.queOPreçoDoAluguelSejaR$(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque o tipo do aluguel seja &amp#27;[0m&amp#27;[32m&amp#27;[1mextendido&amp#27;[0m                    &amp#27;[90m# AlugarFilmeSteps.queOTipoDoAluguelSeja(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32malugar&amp#27;[0m                                                 &amp#27;[90m# AlugarFilmeSteps.alugar()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mo preço do aluguel será R$&amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m                           &amp#27;[90m# AlugarFilmeSteps.oPreçoDoAluguelSeráR$(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma data de entrega será em &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m dias&amp#27;[0m                        &amp#27;[90m# AlugarFilmeSteps.aDataDeEntregaSeraEmDias(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma pontuação será de &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m pontos&amp#27;[0m                            &amp#27;[90m# AlugarFilmeSteps.aPontuacaoSeraDePontos(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Deve dar condiçoes conforme tipo de aluguel" classname="Alugar Filme" time="0.009">
+    <system-out><![CDATA[
+  @unitários
+  Scenario Outline: Deve dar condiçoes conforme tipo de aluguel &amp#27;[90m# src/test/resources/features/alugar_filme.feature:38&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mum filme com estoque de &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m unidades&amp#27;[0m                    &amp#27;[90m# AlugarFilmeSteps.umFilmeComEstoqueDeUnidades(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque o preço do aluguel seja R$&amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m                         &amp#27;[90m# AlugarFilmeSteps.queOPreçoDoAluguelSejaR$(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque o tipo do aluguel seja &amp#27;[0m&amp#27;[32m&amp#27;[1msemanal&amp#27;[0m                      &amp#27;[90m# AlugarFilmeSteps.queOTipoDoAluguelSeja(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32malugar&amp#27;[0m                                                 &amp#27;[90m# AlugarFilmeSteps.alugar()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mo preço do aluguel será R$&amp#27;[0m&amp#27;[32m&amp#27;[1m15&amp#27;[0m                           &amp#27;[90m# AlugarFilmeSteps.oPreçoDoAluguelSeráR$(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma data de entrega será em &amp#27;[0m&amp#27;[32m&amp#27;[1m7&amp#27;[0m&amp#27;[32m dias&amp#27;[0m                        &amp#27;[90m# AlugarFilmeSteps.aDataDeEntregaSeraEmDias(int)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma pontuação será de &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m pontos&amp#27;[0m                            &amp#27;[90m# AlugarFilmeSteps.aPontuacaoSeraDePontos(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Deve executar especificação" classname="Aprender Cumcuber" time="0.008">
+    <system-out><![CDATA[
+@unitários
+Feature: Aprender Cumcuber
+	Como um aluno
+	Eu quero aprender a utilizar Cucumber
+	Para que eu possa automatizar critérios de aceitação
+
+  @unitários
+  Scenario: Deve executar especificação             &amp#27;[90m# src/test/resources/features/aprender_cucumber.feature:7&amp#27;[0m
+Arquivo criado corretamente.
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque criei o arquivo corretamente&amp#27;[0m          &amp#27;[90m# AprenderCucumberSteps.que_criei_o_arquivo_corretamente()&amp#27;[0m
+Execução do arquivo.
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mexecuta-lo&amp#27;[0m                                 &amp#27;[90m# AprenderCucumberSteps.executa_lo()&amp#27;[0m
+Especificação finalizada com sucesso.
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma especificação deve finalizar com sucesso&amp#27;[0m &amp#27;[90m# AprenderCucumberSteps.a_especificação_deve_finalizar_com_sucesso()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Deve incrementar contador" classname="Aprender Cumcuber" time="0.007">
+    <system-out><![CDATA[
+  @unitários
+  Scenario: Deve incrementar contador  &amp#27;[90m# src/test/resources/features/aprender_cucumber.feature:12&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque o valor do contador é &amp#27;[0m&amp#27;[32m&amp#27;[1m15&amp#27;[0m &amp#27;[90m# AprenderCucumberSteps.que_o_valor_do_contador_é(int)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32meu incrementar em &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m           &amp#27;[90m# AprenderCucumberSteps.eu_incrementar_em(int)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mo valor será &amp#27;[0m&amp#27;[32m&amp#27;[1m18&amp#27;[0m               &amp#27;[90m# AprenderCucumberSteps.o_valor_será(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Deve incrementar contador" classname="Aprender Cumcuber" time="0.007">
+    <system-out><![CDATA[
+  @unitários
+  Scenario: Deve incrementar contador   &amp#27;[90m# src/test/resources/features/aprender_cucumber.feature:17&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque o valor do contador é &amp#27;[0m&amp#27;[32m&amp#27;[1m123&amp#27;[0m &amp#27;[90m# AprenderCucumberSteps.que_o_valor_do_contador_é(int)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32meu incrementar em &amp#27;[0m&amp#27;[32m&amp#27;[1m35&amp#27;[0m           &amp#27;[90m# AprenderCucumberSteps.eu_incrementar_em(int)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mo valor será &amp#27;[0m&amp#27;[32m&amp#27;[1m158&amp#27;[0m               &amp#27;[90m# AprenderCucumberSteps.o_valor_será(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Deve calcular atraso na entrega" classname="Aprender Cumcuber" time="0.024">
+    <system-out><![CDATA[
+  @unitários
+  Scenario: Deve calcular atraso na entrega    &amp#27;[90m# src/test/resources/features/aprender_cucumber.feature:23&amp#27;[0m
+Thu Apr 05 00:00:00 BRT 2018
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque a entrega é dia &amp#27;[0m&amp#27;[32m&amp#27;[1m05/04/2018&amp#27;[0m       &amp#27;[90m# AprenderCucumberSteps.que_a_entrega_é_dia(Date)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma entrega atrasar em &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mdias&amp#27;[0m           &amp#27;[90m# AprenderCucumberSteps.a_entrega_atrasar_em_dias(int,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma entrega será efetuada em &amp#27;[0m&amp#27;[32m&amp#27;[1m07&amp#27;[0m&amp#27;[32m/&amp#27;[0m&amp#27;[32m&amp#27;[1m04&amp#27;[0m&amp#27;[32m/&amp#27;[0m&amp#27;[32m&amp#27;[1m2018&amp#27;[0m &amp#27;[90m# AprenderCucumberSteps.a_entrega_será_efetuada_em(int,int,int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Deve calcular atraso na entrega" classname="Aprender Cumcuber" time="0.006">
+    <system-out><![CDATA[
+  @unitários
+  Scenario: Deve calcular atraso na entrega    &amp#27;[90m# src/test/resources/features/aprender_cucumber.feature:28&amp#27;[0m
+Thu Apr 05 00:00:00 BRT 2018
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque a entrega é dia &amp#27;[0m&amp#27;[32m&amp#27;[1m05/04/2018&amp#27;[0m       &amp#27;[90m# AprenderCucumberSteps.que_a_entrega_é_dia(Date)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma entrega atrasar em &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmeses&amp#27;[0m          &amp#27;[90m# AprenderCucumberSteps.a_entrega_atrasar_em_dias(int,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma entrega será efetuada em &amp#27;[0m&amp#27;[32m&amp#27;[1m05&amp#27;[0m&amp#27;[32m/&amp#27;[0m&amp#27;[32m&amp#27;[1m06&amp#27;[0m&amp#27;[32m/&amp#27;[0m&amp#27;[32m&amp#27;[1m2018&amp#27;[0m &amp#27;[90m# AprenderCucumberSteps.a_entrega_será_efetuada_em(int,int,int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Deve criar steps genéricos para estes passos" classname="Aprender Cumcuber" time="0.013">
+    <system-out><![CDATA[
+  @unitários
+  Scenario: Deve criar steps genéricos para estes passos &amp#27;[90m# src/test/resources/features/aprender_cucumber.feature:33&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque o ticket é &amp#27;[0m&amp#27;[32m&amp#27;[1mAF345&amp#27;[0m                           &amp#27;[90m# AprenderCucumberSteps.que_o_ticket_e(String,String)&amp#27;[0m
+Valor da passagem: R$ 23045.0
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque o valor da passagem é R$ &amp#27;[0m&amp#27;[32m&amp#27;[1m230,45&amp#27;[0m              &amp#27;[90m# AprenderCucumberSteps.que_o_valor_da_passagem_e_r$(Double)&amp#27;[0m
+Nome do passageiro: Fulano da Silva
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque o nome do passageiro é "&amp#27;[0m&amp#27;[32m&amp#27;[1mFulano da Silva&amp#27;[0m&amp#27;[32m"&amp#27;[0m     &amp#27;[90m# AprenderCucumberSteps.que_o_nome_do_passageiro_e(String)&amp#27;[0m
+Telefone do passageiro: 9999-9999
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque o telefone do passageiro é &amp#27;[0m&amp#27;[32m&amp#27;[1m9999&amp#27;[0m&amp#27;[32m-&amp#27;[0m&amp#27;[32m&amp#27;[1m9999&amp#27;[0m         &amp#27;[90m# AprenderCucumberSteps.que_o_telefone_do_passageiro_e(Integer,Integer)&amp#27;[0m
+Criando os steps...
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcriar os steps&amp#27;[0m                                  &amp#27;[90m# AprenderCucumberSteps.criar_os_steps()&amp#27;[0m
+Teste funcionando!
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mo teste vai funcionar&amp#27;[0m                           &amp#27;[90m# AprenderCucumberSteps.o_teste_vai_funcionar()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" classname="Aprender Cumcuber" time="0.009">
+    <system-out><![CDATA[
+  @unitários
+  Scenario: Deve reaproveitar os steps "Dado" do cenário anterior &amp#27;[90m# src/test/resources/features/aprender_cucumber.feature:41&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque o ticket é &amp#27;[0m&amp#27;[32m&amp#27;[1mAB167&amp#27;[0m                                    &amp#27;[90m# AprenderCucumberSteps.que_o_ticket_e(String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque o ticket&amp#27;[0m&amp#27;[32m&amp#27;[1m especial&amp#27;[0m&amp#27;[32m é &amp#27;[0m&amp#27;[32m&amp#27;[1mAB167&amp#27;[0m                             &amp#27;[90m# AprenderCucumberSteps.que_o_ticket_e(String,String)&amp#27;[0m
+Valor da passagem: R$ 112023.0
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque o valor da passagem é R$ &amp#27;[0m&amp#27;[32m&amp#27;[1m1120,23&amp#27;[0m                      &amp#27;[90m# AprenderCucumberSteps.que_o_valor_da_passagem_e_r$(Double)&amp#27;[0m
+Nome do passageiro: Cicrano de Oliveira
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque o nome do passageiro é "&amp#27;[0m&amp#27;[32m&amp#27;[1mCicrano de Oliveira&amp#27;[0m&amp#27;[32m"&amp#27;[0m          &amp#27;[90m# AprenderCucumberSteps.que_o_nome_do_passageiro_e(String)&amp#27;[0m
+Telefone do passageiro: 9888-8888
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mque o telefone do passageiro é &amp#27;[0m&amp#27;[32m&amp#27;[1m9888&amp#27;[0m&amp#27;[32m-&amp#27;[0m&amp#27;[32m&amp#27;[1m8888&amp#27;[0m                  &amp#27;[90m# AprenderCucumberSteps.que_o_telefone_do_passageiro_e(Integer,Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

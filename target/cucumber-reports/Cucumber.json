@@ -1,0 +1,1947 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-08-06T22:32:26.188Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1267456900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 903197600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Criação de tarefa com dados válidos",
+        "description": "",
+        "id": "criação-de-tarefas-na-aplicação-mantis;criação-de-tarefa-com-dados-válidos;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 141100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 37100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 158688500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.fecharBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 175035400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2840484600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que esteja logado na aplicação Mantis como \"daniel.romagnoli\" com a senha \"teste123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"daniel.romagnoli\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"teste123\"",
+                  "offset": 74
+                }
+              ],
+              "location": "CreateTaskSteps.que_esteja_logado_na_aplicacao_Mantis_como_com_a_senha(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5267054900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que esteja na pagina de criação de tarefas",
+            "match": {
+              "location": "CreateTaskSteps.que_esteja_na_pagina_de_criacao_de_tarefas()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 538601100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "preencher os campos da tarefa:",
+            "match": {
+              "location": "CreateTaskSteps.preencher_os_campos_da_tarefa(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "categoria",
+                  "frequencia",
+                  "gravidade",
+                  "prioridade",
+                  "resumo",
+                  "descricao"
+                ]
+              },
+              {
+                "cells": [
+                  "0",
+                  "10",
+                  "30",
+                  "20",
+                  "Tarefa nova 01",
+                  "descricao_fake"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 318114800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selecionar criar tarefa",
+            "match": {
+              "location": "CreateTaskSteps.selecionar_criar_tarefa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33004000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "a tarefa deve ser criada com sucesso",
+            "match": {
+              "location": "CreateTaskSteps.a_tarefa_deve_ser_criada_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-06T22:32:37.743Z",
+        "before": [
+          {
+            "result": {
+              "duration": 834074400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 879729400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Criação de tarefa com dados válidos",
+        "description": "",
+        "id": "criação-de-tarefas-na-aplicação-mantis;criação-de-tarefa-com-dados-válidos;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 85277500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 95173400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1147281100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.fecharBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 191587300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3014665400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que esteja logado na aplicação Mantis como \"daniel.romagnoli\" com a senha \"teste123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"daniel.romagnoli\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"teste123\"",
+                  "offset": 74
+                }
+              ],
+              "location": "CreateTaskSteps.que_esteja_logado_na_aplicacao_Mantis_como_com_a_senha(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5311331900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que esteja na pagina de criação de tarefas",
+            "match": {
+              "location": "CreateTaskSteps.que_esteja_na_pagina_de_criacao_de_tarefas()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 485368300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "preencher os campos da tarefa:",
+            "match": {
+              "location": "CreateTaskSteps.preencher_os_campos_da_tarefa(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "categoria",
+                  "frequencia",
+                  "gravidade",
+                  "prioridade",
+                  "resumo",
+                  "descricao"
+                ]
+              },
+              {
+                "cells": [
+                  "1",
+                  "30",
+                  "10",
+                  "30",
+                  "Nova tarefa 02",
+                  "descricao_fake"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 297413100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selecionar criar tarefa",
+            "match": {
+              "location": "CreateTaskSteps.selecionar_criar_tarefa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Você atingiu o limite permitido de atividade de 10 nos últimos 3600 segundos, suas ações foram bloqueados para evitar spam\u0027s, por favor, tente novamente mais tarde].\u003e but was:\u003c[APPLICATION ERROR #27\nVocê atingiu o limite permitido de atividade de 10 nos últimos 3600 segundos, suas ações foram bloqueados para evitar spam\u0027s, por favor, tente novamente mais tarde.\nPor favor, utilize o botão \"Voltar\" de seu navegador web para voltar à pagina anterior. Lá você pode corrigir quaisquer problemas identificados neste erro ou escolher uma outra ação. Você também pode clicar em uma opção da barra de menus para ir diretamente para outra seção].\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat steps.CreateTaskSteps.a_tarefa_deve_ser_criada_com_sucesso(CreateTaskSteps.java:87)\r\n\tat ✽.a tarefa deve ser criada com sucesso(file:src/test/resources/features/create_task.feature:11)\r\n",
+              "duration": 28008200,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "a tarefa deve ser criada com sucesso",
+            "match": {
+              "location": "CreateTaskSteps.a_tarefa_deve_ser_criada_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-06T22:32:50.125Z",
+        "before": [
+          {
+            "result": {
+              "duration": 813153600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 768694600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Criação de tarefa com dados válidos",
+        "description": "",
+        "id": "criação-de-tarefas-na-aplicação-mantis;criação-de-tarefa-com-dados-válidos;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 75551600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 86288600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 145456800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.fecharBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 201644400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2822266600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que esteja logado na aplicação Mantis como \"daniel.romagnoli\" com a senha \"teste123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"daniel.romagnoli\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"teste123\"",
+                  "offset": 74
+                }
+              ],
+              "location": "CreateTaskSteps.que_esteja_logado_na_aplicacao_Mantis_como_com_a_senha(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 363067600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que esteja na pagina de criação de tarefas",
+            "match": {
+              "location": "CreateTaskSteps.que_esteja_na_pagina_de_criacao_de_tarefas()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 554589100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "preencher os campos da tarefa:",
+            "match": {
+              "location": "CreateTaskSteps.preencher_os_campos_da_tarefa(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "categoria",
+                  "frequencia",
+                  "gravidade",
+                  "prioridade",
+                  "resumo",
+                  "descricao"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "50",
+                  "20",
+                  "50",
+                  "Nova tarefa 03",
+                  "descricao_fake"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 311330800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selecionar criar tarefa",
+            "match": {
+              "location": "CreateTaskSteps.selecionar_criar_tarefa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Você atingiu o limite permitido de atividade de 10 nos últimos 3600 segundos, suas ações foram bloqueados para evitar spam\u0027s, por favor, tente novamente mais tarde].\u003e but was:\u003c[APPLICATION ERROR #27\nVocê atingiu o limite permitido de atividade de 10 nos últimos 3600 segundos, suas ações foram bloqueados para evitar spam\u0027s, por favor, tente novamente mais tarde.\nPor favor, utilize o botão \"Voltar\" de seu navegador web para voltar à pagina anterior. Lá você pode corrigir quaisquer problemas identificados neste erro ou escolher uma outra ação. Você também pode clicar em uma opção da barra de menus para ir diretamente para outra seção].\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat steps.CreateTaskSteps.a_tarefa_deve_ser_criada_com_sucesso(CreateTaskSteps.java:87)\r\n\tat ✽.a tarefa deve ser criada com sucesso(file:src/test/resources/features/create_task.feature:11)\r\n",
+              "duration": 24281200,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "a tarefa deve ser criada com sucesso",
+            "match": {
+              "location": "CreateTaskSteps.a_tarefa_deve_ser_criada_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-06T22:32:56.298Z",
+        "before": [
+          {
+            "result": {
+              "duration": 833528600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 835885500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Criação de tarefa com dados válidos",
+        "description": "",
+        "id": "criação-de-tarefas-na-aplicação-mantis;criação-de-tarefa-com-dados-válidos;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 87006400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 82272700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 145904600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.fecharBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 197292100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2664065200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que esteja logado na aplicação Mantis como \"daniel.romagnoli\" com a senha \"teste123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"daniel.romagnoli\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"teste123\"",
+                  "offset": 74
+                }
+              ],
+              "location": "CreateTaskSteps.que_esteja_logado_na_aplicacao_Mantis_como_com_a_senha(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5132086900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que esteja na pagina de criação de tarefas",
+            "match": {
+              "location": "CreateTaskSteps.que_esteja_na_pagina_de_criacao_de_tarefas()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 502046000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "preencher os campos da tarefa:",
+            "match": {
+              "location": "CreateTaskSteps.preencher_os_campos_da_tarefa(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "categoria",
+                  "frequencia",
+                  "gravidade",
+                  "prioridade",
+                  "resumo",
+                  "descricao"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "90",
+                  "50",
+                  "40",
+                  "Nova tarefa 04",
+                  "descricao_fake"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 294929300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selecionar criar tarefa",
+            "match": {
+              "location": "CreateTaskSteps.selecionar_criar_tarefa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Você atingiu o limite permitido de atividade de 10 nos últimos 3600 segundos, suas ações foram bloqueados para evitar spam\u0027s, por favor, tente novamente mais tarde].\u003e but was:\u003c[APPLICATION ERROR #27\nVocê atingiu o limite permitido de atividade de 10 nos últimos 3600 segundos, suas ações foram bloqueados para evitar spam\u0027s, por favor, tente novamente mais tarde.\nPor favor, utilize o botão \"Voltar\" de seu navegador web para voltar à pagina anterior. Lá você pode corrigir quaisquer problemas identificados neste erro ou escolher uma outra ação. Você também pode clicar em uma opção da barra de menus para ir diretamente para outra seção].\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat steps.CreateTaskSteps.a_tarefa_deve_ser_criada_com_sucesso(CreateTaskSteps.java:87)\r\n\tat ✽.a tarefa deve ser criada com sucesso(file:src/test/resources/features/create_task.feature:11)\r\n",
+              "duration": 25102300,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "a tarefa deve ser criada com sucesso",
+            "match": {
+              "location": "CreateTaskSteps.a_tarefa_deve_ser_criada_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-06T22:33:07.105Z",
+        "before": [
+          {
+            "result": {
+              "duration": 828325700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 775794900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Criação de tarefa com dados válidos",
+        "description": "",
+        "id": "criação-de-tarefas-na-aplicação-mantis;criação-de-tarefa-com-dados-válidos;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 34600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 20000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 157078600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.fecharBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 225909800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2011162300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que esteja logado na aplicação Mantis como \"daniel.romagnoli\" com a senha \"teste123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"daniel.romagnoli\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"teste123\"",
+                  "offset": 74
+                }
+              ],
+              "location": "CreateTaskSteps.que_esteja_logado_na_aplicacao_Mantis_como_com_a_senha(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5085841900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que esteja na pagina de criação de tarefas",
+            "match": {
+              "location": "CreateTaskSteps.que_esteja_na_pagina_de_criacao_de_tarefas()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 515334500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "preencher os campos da tarefa:",
+            "match": {
+              "location": "CreateTaskSteps.preencher_os_campos_da_tarefa(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "categoria",
+                  "frequencia",
+                  "gravidade",
+                  "prioridade",
+                  "resumo",
+                  "descricao"
+                ]
+              },
+              {
+                "cells": [
+                  "0",
+                  "100",
+                  "40",
+                  "10",
+                  "Nova tarefa 05",
+                  "descricao_fake"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 292378200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selecionar criar tarefa",
+            "match": {
+              "location": "CreateTaskSteps.selecionar_criar_tarefa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26871700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "a tarefa deve ser criada com sucesso",
+            "match": {
+              "location": "CreateTaskSteps.a_tarefa_deve_ser_criada_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-06T22:33:17.030Z",
+        "before": [
+          {
+            "result": {
+              "duration": 783160300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 814733000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Criação de tarefa com dados válidos",
+        "description": "",
+        "id": "criação-de-tarefas-na-aplicação-mantis;criação-de-tarefa-com-dados-válidos;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 89137300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 76176900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 142572000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.fecharBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 196829700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2639833100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que esteja logado na aplicação Mantis como \"daniel.romagnoli\" com a senha \"teste123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"daniel.romagnoli\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"teste123\"",
+                  "offset": 74
+                }
+              ],
+              "location": "CreateTaskSteps.que_esteja_logado_na_aplicacao_Mantis_como_com_a_senha(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 369970600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que esteja na pagina de criação de tarefas",
+            "match": {
+              "location": "CreateTaskSteps.que_esteja_na_pagina_de_criacao_de_tarefas()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 800750600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "preencher os campos da tarefa:",
+            "match": {
+              "location": "CreateTaskSteps.preencher_os_campos_da_tarefa(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "categoria",
+                  "frequencia",
+                  "gravidade",
+                  "prioridade",
+                  "resumo",
+                  "descricao"
+                ]
+              },
+              {
+                "cells": [
+                  "1",
+                  "100",
+                  "60",
+                  "40",
+                  "Nova tarefa 06",
+                  "descricao_fake"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 283906500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selecionar criar tarefa",
+            "match": {
+              "location": "CreateTaskSteps.selecionar_criar_tarefa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Você atingiu o limite permitido de atividade de 10 nos últimos 3600 segundos, suas ações foram bloqueados para evitar spam\u0027s, por favor, tente novamente mais tarde].\u003e but was:\u003c[APPLICATION ERROR #27\nVocê atingiu o limite permitido de atividade de 10 nos últimos 3600 segundos, suas ações foram bloqueados para evitar spam\u0027s, por favor, tente novamente mais tarde.\nPor favor, utilize o botão \"Voltar\" de seu navegador web para voltar à pagina anterior. Lá você pode corrigir quaisquer problemas identificados neste erro ou escolher uma outra ação. Você também pode clicar em uma opção da barra de menus para ir diretamente para outra seção].\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat steps.CreateTaskSteps.a_tarefa_deve_ser_criada_com_sucesso(CreateTaskSteps.java:87)\r\n\tat ✽.a tarefa deve ser criada com sucesso(file:src/test/resources/features/create_task.feature:11)\r\n",
+              "duration": 28333900,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "a tarefa deve ser criada com sucesso",
+            "match": {
+              "location": "CreateTaskSteps.a_tarefa_deve_ser_criada_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-06T22:33:23.261Z",
+        "before": [
+          {
+            "result": {
+              "duration": 789740400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 742252700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Criação de tarefa com dados válidos",
+        "description": "",
+        "id": "criação-de-tarefas-na-aplicação-mantis;criação-de-tarefa-com-dados-válidos;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 83142400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 76872200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 134318400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.fecharBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 189833200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2051845500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que esteja logado na aplicação Mantis como \"daniel.romagnoli\" com a senha \"teste123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"daniel.romagnoli\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"teste123\"",
+                  "offset": 74
+                }
+              ],
+              "location": "CreateTaskSteps.que_esteja_logado_na_aplicacao_Mantis_como_com_a_senha(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5078124900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que esteja na pagina de criação de tarefas",
+            "match": {
+              "location": "CreateTaskSteps.que_esteja_na_pagina_de_criacao_de_tarefas()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 892119000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "preencher os campos da tarefa:",
+            "match": {
+              "location": "CreateTaskSteps.preencher_os_campos_da_tarefa(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "categoria",
+                  "frequencia",
+                  "gravidade",
+                  "prioridade",
+                  "resumo",
+                  "descricao"
+                ]
+              },
+              {
+                "cells": [
+                  "1",
+                  "100",
+                  "80",
+                  "10",
+                  "Nova tarefa 07",
+                  "descricao_fake"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 330088500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selecionar criar tarefa",
+            "match": {
+              "location": "CreateTaskSteps.selecionar_criar_tarefa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Você atingiu o limite permitido de atividade de 10 nos últimos 3600 segundos, suas ações foram bloqueados para evitar spam\u0027s, por favor, tente novamente mais tarde].\u003e but was:\u003c[APPLICATION ERROR #27\nVocê atingiu o limite permitido de atividade de 10 nos últimos 3600 segundos, suas ações foram bloqueados para evitar spam\u0027s, por favor, tente novamente mais tarde.\nPor favor, utilize o botão \"Voltar\" de seu navegador web para voltar à pagina anterior. Lá você pode corrigir quaisquer problemas identificados neste erro ou escolher uma outra ação. Você também pode clicar em uma opção da barra de menus para ir diretamente para outra seção].\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat steps.CreateTaskSteps.a_tarefa_deve_ser_criada_com_sucesso(CreateTaskSteps.java:87)\r\n\tat ✽.a tarefa deve ser criada com sucesso(file:src/test/resources/features/create_task.feature:11)\r\n",
+              "duration": 28588800,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "a tarefa deve ser criada com sucesso",
+            "match": {
+              "location": "CreateTaskSteps.a_tarefa_deve_ser_criada_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-06T22:33:33.664Z",
+        "before": [
+          {
+            "result": {
+              "duration": 799327200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 769877800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Criação de tarefa com dados válidos",
+        "description": "",
+        "id": "criação-de-tarefas-na-aplicação-mantis;criação-de-tarefa-com-dados-válidos;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 48600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 29100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 178182800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.fecharBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 217203900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2263031500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que esteja logado na aplicação Mantis como \"daniel.romagnoli\" com a senha \"teste123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"daniel.romagnoli\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"teste123\"",
+                  "offset": 74
+                }
+              ],
+              "location": "CreateTaskSteps.que_esteja_logado_na_aplicacao_Mantis_como_com_a_senha(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5284730200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que esteja na pagina de criação de tarefas",
+            "match": {
+              "location": "CreateTaskSteps.que_esteja_na_pagina_de_criacao_de_tarefas()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 510748500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "preencher os campos da tarefa:",
+            "match": {
+              "location": "CreateTaskSteps.preencher_os_campos_da_tarefa(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "categoria",
+                  "frequencia",
+                  "gravidade",
+                  "prioridade",
+                  "resumo",
+                  "descricao"
+                ]
+              },
+              {
+                "cells": [
+                  "0",
+                  "100",
+                  "70",
+                  "50",
+                  "Nova tarefa 08",
+                  "descricao_fake"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 271803900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selecionar criar tarefa",
+            "match": {
+              "location": "CreateTaskSteps.selecionar_criar_tarefa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31369600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "a tarefa deve ser criada com sucesso",
+            "match": {
+              "location": "CreateTaskSteps.a_tarefa_deve_ser_criada_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Criação de Tarefas na aplicação Mantis",
+    "description": "",
+    "id": "criação-de-tarefas-na-aplicação-mantis",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/create_task.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-08-06T22:33:43.996Z",
+        "before": [
+          {
+            "result": {
+              "duration": 872875900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 908957700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login feito com sucesso e credenciais válidas",
+        "description": "",
+        "id": "login-e-gerenciamento-de-tarefas-na-aplicação-mantis;login-feito-com-sucesso-e-credenciais-válidas",
+        "after": [
+          {
+            "result": {
+              "duration": 44900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 17500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 180559700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.fecharBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 178679100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 699102800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "que esteja na pagina de login",
+            "match": {
+              "location": "LoginSteps.que_esteja_na_pagina_de_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95749600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "informar o usuario \"daniel.romagnoli\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"daniel.romagnoli\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginSteps.informar_o_usuario(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 512252300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "selecionar entrar",
+            "match": {
+              "location": "LoginSteps.selecionar_entrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70187600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "informar a senha \"teste123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"teste123\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.a_senha_do_usuario(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 670963900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selecionar entrar",
+            "match": {
+              "location": "LoginSteps.selecionar_entrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7951200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "ira entrar na pagina inicial",
+            "match": {
+              "location": "LoginSteps.ira_entrar_na_pagina_inicial()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-06T22:33:48.200Z",
+        "before": [
+          {
+            "result": {
+              "duration": 793144200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 812297600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Validacao de login com credenciais inválidas",
+        "description": "",
+        "id": "login-e-gerenciamento-de-tarefas-na-aplicação-mantis;validacao-de-login-com-credenciais-inválidas;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 47500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 37600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 174986500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.fecharBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 221919800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 890817800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "que esteja na pagina de login",
+            "match": {
+              "location": "LoginSteps.que_esteja_na_pagina_de_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119605100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "informar o usuario \"user.incorreto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user.incorreto\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginSteps.informar_o_usuario(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 491844900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "selecionar entrar",
+            "match": {
+              "location": "LoginSteps.selecionar_entrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44660000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "informar a senha \"teste123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"teste123\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.a_senha_do_usuario(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 651508200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "selecionar entrar",
+            "match": {
+              "location": "LoginSteps.selecionar_entrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48372800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "ira apresentar uma mensagem de erro \"Sua conta pode estar desativada ou bloqueada ou o nome de usuário e a senha que você digitou não estão corretos.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sua conta pode estar desativada ou bloqueada ou o nome de usuário e a senha que você digitou não estão corretos.\"",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginSteps.ira_apresentar_uma_mensagem_de_erro(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-06T22:33:52.457Z",
+        "before": [
+          {
+            "result": {
+              "duration": 777384600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 836531500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Validacao de login com credenciais inválidas",
+        "description": "",
+        "id": "login-e-gerenciamento-de-tarefas-na-aplicação-mantis;validacao-de-login-com-credenciais-inválidas;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 61200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 31200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 149256900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.fecharBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 188245600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 671705900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "que esteja na pagina de login",
+            "match": {
+              "location": "LoginSteps.que_esteja_na_pagina_de_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90582100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "informar o usuario \"daniel.romagnoli\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"daniel.romagnoli\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginSteps.informar_o_usuario(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 493943200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "selecionar entrar",
+            "match": {
+              "location": "LoginSteps.selecionar_entrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48028500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "informar a senha \"senhaErro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"senhaErro\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.a_senha_do_usuario(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 676914500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "selecionar entrar",
+            "match": {
+              "location": "LoginSteps.selecionar_entrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58141600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "ira apresentar uma mensagem de erro \"Sua conta pode estar desativada ou bloqueada ou o nome de usuário e a senha que você digitou não estão corretos.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sua conta pode estar desativada ou bloqueada ou o nome de usuário e a senha que você digitou não estão corretos.\"",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginSteps.ira_apresentar_uma_mensagem_de_erro(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-06T22:33:56.454Z",
+        "before": [
+          {
+            "result": {
+              "duration": 838891500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 804901400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Validacao de login com credenciais inválidas",
+        "description": "",
+        "id": "login-e-gerenciamento-de-tarefas-na-aplicação-mantis;validacao-de-login-com-credenciais-inválidas;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 56900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 38600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 155572200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.fecharBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 163302400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateTaskSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 770177800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "que esteja na pagina de login",
+            "match": {
+              "location": "LoginSteps.que_esteja_na_pagina_de_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95908300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "informar o usuario \"daniel.romagnoli\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"daniel.romagnoli\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginSteps.informar_o_usuario(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 472439800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "selecionar entrar",
+            "match": {
+              "location": "LoginSteps.selecionar_entrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41684000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "informar a senha \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.a_senha_do_usuario(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 664699400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "selecionar entrar",
+            "match": {
+              "location": "LoginSteps.selecionar_entrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52749700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "ira apresentar uma mensagem de erro \"Sua conta pode estar desativada ou bloqueada ou o nome de usuário e a senha que você digitou não estão corretos.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sua conta pode estar desativada ou bloqueada ou o nome de usuário e a senha que você digitou não estão corretos.\"",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginSteps.ira_apresentar_uma_mensagem_de_erro(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login e Gerenciamento de Tarefas na aplicação Mantis",
+    "description": "",
+    "id": "login-e-gerenciamento-de-tarefas-na-aplicação-mantis",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
